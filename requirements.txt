@@ -1,0 +1,13 @@
+# Digital Signal Processing Visualizations Requirements
+# Core scientific computing packages
+numpy>=1.21.0
+matplotlib>=3.5.0
+scipy>=1.9.0
+
+# Additional packages for enhanced visualizations (optional)
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Jupyter support for interactive development (optional)
+jupyter>=1.0.0
+ipykernel>=6.0.0
