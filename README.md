@@ -64,11 +64,43 @@ Where:
 
 ## 📊 Example Outputs
 
-The visualizations include:
-1. **Original Signal**: Stem plot of the input signal
-2. **Even Component**: Symmetric part of the signal
-3. **Odd Component**: Antisymmetric part of the signal  
-4. **Verification**: Overlay showing perfect reconstruction
+The script generates three comprehensive figures, each with detailed visualizations:
+
+### Figure 1: Arbitrary Discrete Signal Decomposition
+- **Signal**: `x[n] = [2, 1, -1, 3, 2]` for `n = [0, 1, 2, 3, 4]`
+- **Layout**: 2×2 subplot grid showing:
+  - **Top-left**: Original signal x[n] (blue stems)
+  - **Top-right**: Even part x_e[n] = (x[n] + x[-n])/2 (green stems)
+  - **Bottom-left**: Odd part x_o[n] = (x[n] - x[-n])/2 (red stems)
+  - **Bottom-right**: Verification plot (magenta: reconstructed, black dashed: original)
+- **Purpose**: Demonstrates basic decomposition principles with an arbitrary signal
+
+![Figure 1: Arbitrary Signal Decomposition](Figure_1.png)
+
+### Figure 2: Exponential Signal Decomposition  
+- **Signal**: `x[n] = 0.8^n` for `n = [0, 1, 2, 3, 4, 5]`
+- **Layout**: Same 2×2 subplot structure as Figure 1
+- **Key Insight**: Shows how exponential decay signals contain both even and odd components
+- **Mathematical significance**: Demonstrates that exponential functions have non-zero even and odd parts
+
+![Figure 2: Exponential Signal Decomposition](Figure_2.png)
+
+### Figure 3: Sinusoidal Signal Decomposition
+- **Signal**: `x[n] = sin(π/4 × n)` for `n = [-5, -4, ..., 4, 5]`
+- **Layout**: Same 2×2 subplot structure as previous figures
+- **Key Properties Demonstrated**:
+  - Even part ≈ 0 (confirming sine is an odd function)
+  - Odd part equals the original signal
+  - Perfect mathematical verification of sine function properties
+- **Educational Value**: Reinforces the theoretical property that sine functions are purely odd
+
+![Figure 3: Sinusoidal Signal Decomposition](Figure_3.png)
+
+Each figure includes:
+- Color-coded stem plots for easy distinction
+- Grid lines for precise reading of values
+- Mathematical formulas in subplot titles
+- Verification plots showing perfect reconstruction
 
 ## 🛠️ Project Structure
 
