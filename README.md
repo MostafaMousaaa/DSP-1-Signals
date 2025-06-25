@@ -109,8 +109,6 @@ Digital Signal Processing/
 ├── signal_decomposition.py    # Main signal decomposition demo
 ├── requirements.txt           # Python dependencies
 ├── README.md                 # This file
-└── .github/
-    └── copilot-instructions.md  # AI coding assistant guidelines
 ```
 
 ## 🔧 Dependencies
