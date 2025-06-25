@@ -41,45 +41,6 @@ These concepts bridge the gap between theoretical mathematics and practical sign
 - Convolution demonstrations
 - Sampling and aliasing effects
 - Window functions comparison
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Installation
-
-1. Clone or download this project
-2. Navigate to the project directory
-3. Install required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Running the Examples
-
-**Signal Decomposition:**
-```bash
-python signal_decomposition.py
-```
-
-This will display:
-- Three different signal examples
-- Interactive plots showing original signals and their even/odd decompositions
-- Mathematical verification that original = even + odd parts
-
-**Complex Sinusoids and Periodicity:**
-```bash
-python complex_sinusoids.py
-```
-
-This will demonstrate:
-- Periodicity analysis for different frequencies
-- Comparison between periodic and non-periodic complex sinusoids
-- Aliasing relationships between frequencies
-- Frequency resolution effects
-
 ## 📚 Educational Content
 
 ### Signal Decomposition Theory
@@ -186,24 +147,6 @@ The complex sinusoids script generates four detailed visualizations:
 
 ![Figure 7: Frequency Resolution](Figure_7.png)
 
-## 🛠️ Project Structure
-
-```
-Digital Signal Processing/
-├── signal_decomposition.py    # Signal decomposition into even/odd parts
-├── complex_sinusoids.py       # Complex sinusoids and periodicity analysis
-├── requirements.txt           # Python dependencies
-├── README.md                  # This file
-├── Figure_1.png              # Arbitrary signal decomposition
-├── Figure_2.png              # Exponential signal decomposition
-├── Figure_3.png              # Sinusoidal signal decomposition
-├── Figure_4.png              # Periodic complex sinusoid (ω = π/4)
-├── Figure_5.png              # Non-periodic complex sinusoid (ω = 1.0)
-├── Figure_6.png              # Aliasing relationship demonstration
-├── Figure_7.png              # Frequency resolution and period comparison
-└── .github/
-    └── copilot-instructions.md  # AI coding assistant guidelines
-```
 
 ## 🔧 Dependencies
 
